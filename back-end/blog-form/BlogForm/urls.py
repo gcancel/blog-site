@@ -1,7 +1,8 @@
 from django.urls import path
-from .views import ContactInfoForm, ContactMessageView
+from .views import ContactMessageView
+from . import views
 
 urlpatterns = [
-    path('contact-form', ContactInfoForm.as_view(), name='contact-info'),
+    path('contact-form', views.contact_form, name='contact-form'),
     path('messages', ContactMessageView.as_view(), name='messages'),
 ]
