@@ -11,18 +11,17 @@ const CVBlockStyle = styled.div`
     .cv-date{
         flex: .25;
         background-color: lightblue;
-        p{
-            margin-left: 0.5em;
-        }
+        
     }
     .cv-text{
         flex: .75;
         background-color: lightcyan;
-        p{
-            margin: 0.5em;
-            padding: .2em;
-            color: #565252;;
-        }
+    }
+    .cv-text p{
+        color: #565252;
+    }
+    p{
+        margin-left: 0.5em;
     }
 
     @media(max-width: 500px){
@@ -34,6 +33,7 @@ const CVBlockStyle = styled.div`
         .cv-date{
             width: 85vw;
             text-align: right;
+            display: none;
 
         }
         .cv-text{
