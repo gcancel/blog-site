@@ -6,19 +6,23 @@ const CVBlockStyle = styled.div`
     padding: 0;
     display: flex;
     flex-direction: row;
-    border-bottom: 1px solid lightblue;
+    border-bottom: 1px solid #565252;
+    font-size: 1.2em;
 
     .cv-date{
-        flex: .25;
-        background-color: lightblue;
-        
+        flex: .1;
+        background-color: #9D6265;
+    }
+    .cv-date p{
+        color: #fff;
     }
     .cv-text{
-        flex: .75;
-        background-color: lightcyan;
+        flex: .9;
+        background-color: #629D9A;
     }
     .cv-text p{
-        color: #565252;
+        //color: #565252;
+        color: #fff;
     }
     p{
         margin-left: 0.5em;

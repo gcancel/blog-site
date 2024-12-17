@@ -7,12 +7,14 @@ const CVStyle = styled.div`
 
     display: flex;
     flex-direction: column;
-    background-color:#629D9A;
+    background-color:#EDEFEF;
     min-height: 100vh;
+    font-size: 1.2em;
 
 
-    color: #fff;
-    font-family: "POI Aeronaut Trial", sans-serif;
+    color: #565252;
+    //font-family: "POI Aeronaut Trial", sans-serif;
+    font-family: "Times New Roman", serif;
 
     // pdf link
     .pdf-link a{
