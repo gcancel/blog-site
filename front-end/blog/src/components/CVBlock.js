@@ -41,8 +41,8 @@ const CVBlockStyle = styled.div`
 
         }
         .cv-text{
-            width: 85vw;;
-            
+            width: 85vw;
+            border-bottom: 1px solid #7C629D;
         }
     }
 `;

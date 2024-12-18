@@ -18,7 +18,7 @@ const CVStyle = styled.div`
 
     // pdf link
     .pdf-link a{
-        font-weight: lighter;
+        font-weight: normal;
         font-size: small;
         text-decoration: none;
         color: #fff;
@@ -36,6 +36,13 @@ const CVStyle = styled.div`
     .cv-title h1, h4{
         margin: 0;
     }
+    .inner-date{
+            display: none;
+            font-size: large;
+            font-weight: bold;
+            color: #565252;
+
+        }
 
     //mobile
     @media (max-width: 500px){
@@ -47,6 +54,9 @@ const CVStyle = styled.div`
         }
         .cv-container{
             min-width: 400px;
+        }
+        .inner-date{
+            display: inline;
         }
     }
 
@@ -420,17 +430,239 @@ function CV() {
                         <p>The Path to Graduate School, Black Graduate Student Association, <i>Rice University</i></p>
                         <p>The Path to Graduate School, Black Graduate Student Association, <i>Rice University</i></p>
                         <p>“Grad School Confidential: True Tales from History Faculty and Students” at <i>Eastern
-                        Illinois University</i></p>
+                        Illinois University</i><span class='inner-date'> 02/2015</span></p>
                     </div>
                 </CVBlock>
                 <h2>Colloquia and Workshops</h2>
                 <CVBlock>
                     <div class='cv-date'>
-                        <p>START HERE</p>
+                        <p>01/2024 - Present</p>
+                        <p>09/2024 - Present</p>
+                        <p>05/2022 - Present</p>
+                        <p>09/2022 - Present</p>
+                        <p>02/2023 - Present</p>
+                        <p>10/2023 - Present</p>
+                        <p>08/2022 - Present</p>
+                        <p>02/2022 - 06/2022</p>
+                        <p>06/2021 - 08/2023</p>
+                        <p>10/2021 - 12/2021</p>
+                        <p>11/2020 - 01/2021</p>
+                        <p>10/2020 - 12/2020</p>
+                        <p>03/2020 - 05/2020</p>
+                        <p>06/2017</p>
+                        <p>05/2017</p>
+                        <p>12/2014</p>
 
                     </div>
                     <div class='cv-text'>
-                        <p>TEXT</p>
+                        <p>Racemaking in American History<span class='inner-date'> 01/2024 - Present</span></p>
+                        <p>Ohio Seminar in Early American History and Culture, <i>The Ohio State University</i><span class='inner-date'> 09/2024 - Present</span></p>
+                        <p>Racial Capitalism Virtual Reading Group, Dr. Terri Friedline, <i>University of Michigan</i><span class='inner-date'> 05/2022 - Present</span></p>
+                        <p>SHA Junior Scholars Workshop, <i>Southern Historical Association</i><span class='inner-date'> 09/2022 - Present</span></p>
+                        <p>Reading the Margins Reading Lab, Center for African and African American Studies, 
+                        <i>Rice University</i><span class='inner-date'> 02/2023 - Present</span></p>
+                        <p>National Library of Medicine Workshop on Data, Health, and the Digital Humanities, 
+                        <i>Virginia Tech</i><span class='inner-date'> 10/2022 - 06/2023</span></p>
+                        <p>Iola LeRoy in Conversation with David Copperfield, Dicken’s Universe, <i>University 
+                        California at Santa Cruz</i><span class='inner-date'> 08/2022</span></p>
+                        <p>Black Radical Traditions Reading Lab, Center for African and African American Studies, 
+                        <i>Rice University</i><span class='inner-date'> 02/2022 - 06/2022</span></p>
+                        <p>Historians Be Writing, History Lab, <i>Rice University</i><span class='inner-date'> 06/2021 - 08/2023</span></p>
+                        <p>Disability History Coffee Table, <i>Omohundro Institute</i><span class='inner-date'> 10/2021 - 12/2021</span></p>
+                        <p>Black Feminist Reading Lab, <i>Rice University</i><span class='inner-date'> 11/2020 - 01/2021</span></p>
+                        <p>Is This Your ‘Diss: Dissertation Review Lab, <i>Rice University</i><span class='inner-date'> 10/2020 - 12/2020</span></p>
+                        <p>Scholars in Quarantine: Capitalism and Race Discussion Series, <i>Rice University</i><span class='inner-date'> 03/2020 - 05/2020</span></p>
+                        <p>In Black and White: Race and American Visual Culture, CHAViC Summer Seminar, 
+                        <i>American Antiquarian Society</i><span class='inner-date'> 06/2017</span></p>
+                        <p>A Contest of Two Genres: Graphic Satire and Anglo-American History Painting in the 
+                        Long Eighteenth Century, <i>Lewis Walpole Library</i><span class='inner-date'> 05/2017</span></p>
+                        <p>Representing Slavery in Eighteenth-Century Atlantic Britain, <i>Lewis Walpole Library and 
+                        The Yale Center for British Art</i><span class='inner-date'> 12/2014</span></p>
+                    </div>
+                </CVBlock>
+                <h2>Teaching Experience</h2>
+                <h3>Instructor of Record</h3>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>01/2025 - 03/2025</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Hist 1725: African American History to the Civil War Era</p>
+                        <p><i>University of Denver</i></p>
+                        <p>Department: History</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>01/2025 - 03/2025</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Hist 2998: Issues in Comparative History with Dr. Trishula Patel </p>
+                        <p><i>University of Denver</i></p>
+                        <p>Department: History</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>03/2025 - 06/2025</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Hist 3400: Revolts and Revolutions in the Afro-Atlantic World</p>
+                        <p>Hist 1725: African American History to the Civil War Era</p>
+                        <p><i>University of Denver</i></p>
+                        <p>Department: History</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>03/2025 - 06/2025</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Hist 2410: Histories of the Body</p>
+                        <p><i>University of Denver</i></p>
+                        <p>Department: History</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>04/2024 - 06/2024</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Hist 1715: Middle Passages: Atlantic World Migrations</p>
+                        <p><i>University of Denver</i></p>
+                        <p>Department: History</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>04/2024 - 06/2024</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Hist 3703 Topics in History: A History of Black Women in the United States</p>
+                        <p><i>University of Denver</i></p>
+                        <p>Department: History</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>09/2023 - 11/2023</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Hist 2702: Topics in History: A US History of Health and Disability</p>
+                        <p><i>University of Denver</i></p>
+                        <p>Department: History</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>09/2023 - 11/2023</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Hist 2701: Topics in History: Africa and the Slave Trade</p>
+                        <p><i>University of Denver</i></p>
+                        <p>Department: History</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>01/2021 - 05/2021</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Blacks in the Americas: The History of Africans in America through Film</p>
+                        <p><i>Rice University</i></p>
+                        <p>Department: History</p>
+                    </div>
+                </CVBlock>
+                <h3>Mentor</h3>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>07/2021 – Present</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Academic Mentor</p>
+                        <p><i>Rice University</i></p>
+                        <p>Responsibility Inclusion and Student Excellence (R.I.S.E)</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>2018 – Present</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Minorities in Humanities Liaison</p>
+                        <p><i>Rice University</i></p>
+                        <p>Rice Humanities Recruitment Liaison</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>08/2020 – 05/21</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Graduate Student Mentor</p>
+                        <p><i>Rice University</i></p>
+                        <p>Department: History</p>
+                    </div>
+                </CVBlock>
+                <h2>Editorial and Digital Humanities Experience</h2>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>10/2022-07/2024</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Media Specialist</p>
+                        <p><i>Rice University</i></p>
+                        <p>Center for Women Gender and Sexuality</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>01/2022 – 05/2022</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Editorial Assistant</p>
+                        <p><i>Rice University</i></p>
+                        <p>Journal of Southern History</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>12/2021 – 06/2022</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Podcast Production Manager and Host</p>
+                        <p><i>Rice University</i></p>
+                        <p>Medicine Race and Democracy Speaker Series</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>01/2016 – 12/2018</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Editorial Assistant</p>
+                        <p><i>Rice University</i></p>
+                        <p>Journal of Southern History</p>
+                    </div>
+                </CVBlock>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>10/2015 – 08/2016</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>Digital Archivist</p>
+                        <p><i>National Personnel Records Center</i></p>
+                        <p>Ancestry.com</p>
+                    </div>
+                </CVBlock>
+                <h2>University Service</h2>
+                <h3>University of Denver</h3>
+                <CVBlock>
+                    <div class='cv-date'>
+                        <p>2024 – Present</p>
+                    </div>
+                    <div class='cv-text'>
+                        <p>START HERE</p>
                     </div>
                 </CVBlock>
             </article>
