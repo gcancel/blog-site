@@ -41,6 +41,8 @@ const CVStyle = styled.div`
             font-size: large;
             font-weight: bold;
             color: #565252;
+            text-align: right;
+            margin: .5em;
 
         }
 
@@ -56,7 +58,7 @@ const CVStyle = styled.div`
             min-width: 400px;
         }
         .inner-date{
-            display: inline;
+            display: block;
         }
     }
 
