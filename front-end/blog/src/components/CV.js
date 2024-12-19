@@ -7,6 +7,7 @@ const CVStyle = styled.div`
 
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     background-color:#EDEFEF;
     min-height: 100vh;
     font-size: 1.2em;
