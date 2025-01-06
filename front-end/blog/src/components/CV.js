@@ -6,6 +6,7 @@ import CVBlock from './CVBlock';
 const CVStyle = styled.div`
 
     display: flex;
+    padding-left: 1em;
     flex-direction: column;
     overflow: hidden;
     background-color:#EDEFEF;

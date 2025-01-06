@@ -16,6 +16,7 @@ function App() {
         <Route exact path="/CV" element={<CV />} />
         <Route exact path="/syllabus" element={<Syllabus />} />
       </Routes>
+      <Bio/>
     </Router>
 
   );

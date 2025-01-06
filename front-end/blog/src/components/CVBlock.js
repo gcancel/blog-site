@@ -10,14 +10,14 @@ const CVBlockStyle = styled.div`
     font-size: 1.2em;
 
     .cv-date{
-        flex: .1;
+        flex: 10%;
         background-color: #9D6265;
     }
     .cv-date p{
         color: #fff;
     }
     .cv-text{
-        flex: .9;
+        flex: 90%;
         background-color: #629D9A;
     }
     .cv-text p{

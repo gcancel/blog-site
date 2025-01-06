@@ -41,7 +41,7 @@ function Header(){
             font-size: large;
             
         }
-        .navigation-links li a{
+        .navigation-links a{
             text-decoration: none;
             color: #EDEFEF;
         }
@@ -87,10 +87,10 @@ function Header(){
                 </div>
                 <nav class='navigation-links'>
                     <ul>
-                        <li><a href='/#'>Home</a></li>
-                        <li><a href='/syllabus'>Syllabus</a></li>
-                        <li><a href='/research'>Research Narratives</a></li>
-                        <li><a href='/CV'>CV</a></li>
+                    <a href='/#'><li>Home</li></a>
+                    <a href='/syllabus'><li>Syllabus</li></a>
+                    <a href='/research'><li>Research Narratives</li></a>
+                    <a href='/CV'><li>CV</li></a>
                     </ul>
                 </nav>
             </div>
