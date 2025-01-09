@@ -4,6 +4,7 @@ import Header from './components/Header';
 import CV from './components/CV';
 import Syllabus from './components/Syllabus';
 import Bio from './components/Bio';
+import Research from './components/Research';
 
 import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/syllabus" element={<Syllabus />} />
       </Routes>
       <Bio/>
+      {/* <Research/> */}
     </Router>
 
   );
